@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+
+.logo{
+    width: auto;
+    margin-left: 50px;
+}
+.link{
+    color: #7F6FEA ;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: 'Karla', sans-serif;
+
+}
+.form{
+    margin-right: 50px;
+}
+.bgpurple{
+    background-color: #EAE8FB  ;
+    width: 100%;
+    height: 210px;
+    margin-top: 0px;
+   
+   
+}
+.intro{
+  text-align: center;
+  font-family: 'Abhaya Libre', serif;
+  color: black;
+}
+.title1{
+    font-family: 'Abhaya Libre', serif;
+    color: black;
+}
+.bggrey{
+    background-color: #E3E2E8  ;
+    width: 100%;
+    height: 230px;
+}
+.footer{
+background-color: #7F6FEA;
+
+}
+.footerlinks{
+    display: flex;
+    
+}
+.footerlink{
+    color: white;
+    margin-right: 20px;
+    margin-left: 50px;
+    
+}
+.list{
+    margin-right: 25px;
+    font-family: 'Karla', sans-serif;
+
+}
+.buttonfooter{
+    background-color: #EAE8FB;
+    border: 1px solid #EAE8FB;
+    border-radius: 3px;
+    height: 35px;
+    margin: auto;
+    width: auto;
+}
+.buttonmainpage{
+    background-color: #7F6FEA;
+    border: 1px solid #7F6FEA;
+    border-radius: 3px;
+    height: 35px;
+    margin: auto;
+    width: auto;
+    color: white;
+}
+.icon{
+    color: white;
+    font-size: 30px;
+}
