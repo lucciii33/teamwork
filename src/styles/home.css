@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
-
+/* /////navbar */
 .logo{
     width: auto;
     margin-left: 50px;
@@ -15,6 +15,8 @@
 .form{
     margin-right: 50px;
 }
+/* /////PatienLandingPage */
+
 .bgpurple{
     background-color: #EAE8FB  ;
     width: 100%;
@@ -37,32 +39,11 @@
     width: 100%;
     height: 230px;
 }
-.footer{
-background-color: #7F6FEA;
 
-}
-.footerlinks{
-    display: flex;
-    
-}
-.footerlink{
-    color: white;
-    margin-right: 20px;
-    margin-left: 50px;
-    
-}
 .list{
     margin-right: 25px;
     font-family: 'Karla', sans-serif;
 
-}
-.buttonfooter{
-    background-color: #EAE8FB;
-    border: 1px solid #EAE8FB;
-    border-radius: 3px;
-    height: 35px;
-    margin: auto;
-    width: auto;
 }
 .buttonmainpage{
     background-color: #7F6FEA;
@@ -73,7 +54,39 @@ background-color: #7F6FEA;
     width: auto;
     color: white;
 }
+/* //////////////footer */
+.buttonfooter{
+    background-color: #EAE8FB;
+    border: 1px solid #EAE8FB;
+    border-radius: 3px;
+    height: 35px;
+    margin: auto;
+    width: auto;
+}
+.footer{
+    background-color: #7F6FEA;
+    
+    }
+.footerlinks{
+        display: flex;
+        
+    }
+.footerlink{
+        color: white;
+        margin-right: 20px;
+        margin-left: 50px;
+        
+    }
+
 .icon{
     color: white;
     font-size: 30px;
+}
+
+
+/* //////////singup */
+.signupGradient{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left top,#2ACDFA, #E927D3, #7F6FEA  );
 }
