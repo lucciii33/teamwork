@@ -90,3 +90,40 @@
     height: 100vh;
     background-image: linear-gradient(to left top,#2ACDFA, #E927D3, #7F6FEA  );
 }
+.bgwhite{
+    background-color: white;
+    width: 700px;
+    border-radius: 14px;
+    margin-top: 35px;
+}
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #7F6FEA;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    }
+    
+.checkbox-round:checked {
+    background-color: #7F6FEA;
+}
+.titlesingup{
+    font-family: 'Abhaya Libre', serif;
+}
+.labelsingup{
+    font-family: 'Karla', sans-serif;
+    font-size: 10px;
+}
+.checkbox{
+    font-family: 'Karla', sans-serif;
+    font-size: 10px;
+}
+.inputsingup{
+width: 300px;
+}
