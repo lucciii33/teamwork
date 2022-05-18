@@ -5,7 +5,7 @@ import { MDBBtn } from 'mdb-react-ui-kit';
 
 
 export const Footer = () => (
-	<footer className="footer mt-auto py-3 d-flex">
+	<footer className="footer mt-auto py-3 d-flex ">
 		<div className="footerlinks">
 
 			<Link to='/' className="footerlink"><p>Home</p></Link>
@@ -15,9 +15,10 @@ export const Footer = () => (
 			<Link to='/' className="footerlink"><p>Privacy Policy</p></Link>
 			<Link to='/' className="footerlink"><p>Terms</p></Link>
 		</div>
-			<div className="input-group md-form form-sm form-2 pl-0">
+		<div className="d-flex align-items-baseline">
+			<div className="input-group md-form form-sm form-2 pl-0 me-5">
 				<div className="">
-					<p>Stay in the know - join Elana!</p>
+					<p className="m-0 p-0 text-white textfoot">Stay in the know - join Elana!</p>
 
 					<div className="d-flex">
 
@@ -32,17 +33,18 @@ export const Footer = () => (
 					</div>
 				</div>
 			</div>
-			<div className="input-group md-form form-sm form-2 pl-0">
-				<div className="">
-					<p>Conect with us</p>
+			<div className="mb-3">
+				<div className="m-0">
+					<p className="text-white p-0 m-0">Conect with us</p>
 
 					<div className="d-flex icon">
-						<div className="me-2 icon"><i className="fab fa-facebook-square"></i></div>
-						<div className="me-2"><i className="fab fa-linkedin"></i></div>
-						<div className="me-2"><i className="fab fa-pinterest"></i></div>
-						<div className="me-2"><i className="fab fa-instagram"></i></div>
+						<div className=""><i className="fab fa-facebook-square"></i></div>
+						<div className=""><i className="fab fa-linkedin"></i></div>
+						<div className=""><i className="fab fa-pinterest"></i></div>
+						<div className=""><i className="fab fa-instagram"></i></div>
 					</div>
 				</div>
 			</div>
+		</div>
 	</footer>
 );

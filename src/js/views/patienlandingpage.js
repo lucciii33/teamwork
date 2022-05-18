@@ -17,8 +17,8 @@ export const PatienLandingPage = () => {
 				<div className="intro">
 
 					<h1 className="p-4">We’re so glad you’re here. </h1>
-					<h4 className="p-0">Elana is changing a generation of women’s health, putting you in control <br/>
-					 of managing your pelvic health, how, and when, it suits you.</h4>
+					<h4 className="p-0">Elana is changing a generation of women’s health, putting you in control <br />
+						of managing your pelvic health, how, and when, it suits you.</h4>
 				</div>
 			</div>
 			<div className="d-flex">
@@ -27,15 +27,18 @@ export const PatienLandingPage = () => {
 				</div>
 				<div className="m-auto">
 					<h3 className="text-center title1">Health providers in Elana include:</h3>
-					<ul type="none" className="list">
-						<li>Yoga Instructors</li>
-						<li>Pilates Instructors</li>
-						<li>Physical Therapy</li>
-						<li>Pain Management</li>
-						<li>Health Coach</li>
-						<li>Gynecologist</li>
-						<li>and more!</li>
-					</ul>
+					<div className="me-5">
+
+						<ul type="none" className="list">
+							<li className="">Yoga Instructors</li>
+							<li>Pilates Instructors</li>
+							<li>Physical Therapy</li>
+							<li>Pain Management</li>
+							<li>Health Coach</li>
+							<li>Gynecologist</li>
+							<li>and more!</li>
+						</ul>
+					</div>
 					<div>
 
 						<button className='buttonmainpage'>
@@ -47,8 +50,8 @@ export const PatienLandingPage = () => {
 			<div className="bggrey">
 				<div className="text-center p-3 title1">
 
-				<h4 className="pt-4">Stay in the know with our newsletter.</h4>
-				<h4>Get updates and the latest on pelvic care delivered to your inbox.</h4>
+					<h4 className="pt-4">Stay in the know with our newsletter.</h4>
+					<h4>Get updates and the latest on pelvic care delivered to your inbox.</h4>
 				</div>
 				<div className="input-group p-0 d-flex justify-content-center">
 					<div className="active-purple-4 mb-2 d-flex">
@@ -57,7 +60,7 @@ export const PatienLandingPage = () => {
 							<div className="input-group-append">
 								<span className="" id="basic-text1">
 									<button className='buttonmainpage' color='secondary'>
-									Stay in the know
+										Stay in the know
 									</button>
 								</span>
 							</div>

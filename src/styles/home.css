@@ -33,6 +33,7 @@
 .title1{
     font-family: 'Abhaya Libre', serif;
     color: black;
+    margin-right: 100px;
 }
 .bggrey{
     background-color: #E3E2E8  ;
@@ -41,9 +42,7 @@
 }
 
 .list{
-    margin-right: 25px;
     font-family: 'Karla', sans-serif;
-
 }
 .buttonmainpage{
     background-color: #7F6FEA;
@@ -69,8 +68,14 @@
     }
 .footerlinks{
         display: flex;
+        font-size: 15px;
+        white-space: nowrap;
+        padding-top: 30px;
         
     }
+.textfoot{
+    white-space: nowrap;
+}
 .footerlink{
         color: white;
         margin-right: 20px;
@@ -80,7 +85,7 @@
 
 .icon{
     color: white;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 
@@ -89,12 +94,14 @@
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(to left top,#2ACDFA, #E927D3, #7F6FEA  );
+    padding-top: 20px;
 }
 .bgwhite{
     background-color: white;
     width: 700px;
     border-radius: 14px;
     margin-top: 35px;
+    height: auto;
 }
 
 .checkbox-round {
@@ -120,10 +127,17 @@
     font-family: 'Karla', sans-serif;
     font-size: 10px;
 }
+.model{
+    font-family: 'Karla', sans-serif;
+}
 .checkbox{
     font-family: 'Karla', sans-serif;
     font-size: 10px;
 }
 .inputsingup{
 width: 300px;
+}
+.inputdrop{
+    width: 529px;
+    margin-left: 90px;
 }

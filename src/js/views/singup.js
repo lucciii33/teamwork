@@ -23,7 +23,7 @@ export const SingUp = props => {
 	const [centredModal, setCentredModal] = useState(false);
 	const toggleShow = () => setCentredModal(!centredModal);
 	return (
-		<div className="signupGradient">
+		<div className="signupGradient py-2">
 			<div className="bgwhite m-auto">
 
 				{/* /////// first part logo and icon*/}
@@ -35,7 +35,7 @@ export const SingUp = props => {
 				{/* /////// second part titles*/}
 
 				<div className="text-center">
-					<h2  className="titlesingup">Welcome to Elana</h2>
+					<h2 className="titlesingup">Welcome to Elana</h2>
 					<p className="titlesingup">Already have an account? Click <a>here</a> to login</p>
 				</div>
 
@@ -73,17 +73,25 @@ export const SingUp = props => {
 
 					<div>
 						<label className="labelsingup text-muted">Password</label>
-						<MDBInput id='form1' type='text' />
+						<MDBInput id='form1' type='password' />
 					</div>
 
 				</div>
-				<div className="m-2 ">
+				<div className=" inputdrop">
 					<label className="labelsingup text-muted">Licensing credentials</label>
-					<MDBInput id='form1' type='text'/>
+					<input type="text" class="form-control" aria-describedby="addon-wrapping"/>
 				</div>
-				<div className="m-2">
+				<div className="inputdrop model">
 					<label className="labelsingup text-muted">Area of Specialty</label>
-					<MDBInput id='form1' type='text' className="inputsingup"/>
+					<div class="input-group">
+						<select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+							<option className="text-muted">-select one-</option>
+							<option value="1">Occupational Therapist (OT)</option>
+							<option value="2">Pain Management Doctor</option>
+							<option value="3">Pain Management Psychologist</option>
+							<option value="3">Pelvic Health Physical Therapist</option>
+						</select>
+					</div>
 				</div>
 
 				{/* /////// fourth part checkbox*/}
@@ -95,15 +103,15 @@ export const SingUp = props => {
 
 				{/* /////// fifth part button and modal*/}
 
-				<div className="text-center m-2">
-					<button onClick={toggleShow} className="buttonmainpage m-2 mb-5">Vertically centered modal</button>
+				<div className="text-center model">
+					<button onClick={toggleShow} className="buttonmainpage m-2 mb-5">CONTINUE</button>
 
 					<MDBModal tabIndex='-1' show={centredModal} setShow={setCentredModal}>
 						<MDBModalDialog centered>
 							<MDBModalContent>
 								<MDBModalBody className="text-center">
-								<img src={vector} className="logosingup"></img>
-								<h1>Woohoo</h1>
+									<img src={vector} className="logosingup"></img>
+									<h1>Woohoo</h1>
 									<p>Your registration is complete. Please, check your email for confirmation information.</p>
 									<p>Next, let’s set up your profile.</p>
 									<Link><button className="buttonmainpage">CREATE PROFILE</button></Link>
