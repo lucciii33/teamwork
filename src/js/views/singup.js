@@ -23,11 +23,11 @@ export const SingUp = props => {
 	const [centredModal, setCentredModal] = useState(false);
 	const toggleShow = () => setCentredModal(!centredModal);
 	return (
-		<div className="signupGradient py-2">
+		<div className="signupGradient pt-1 pb-1">
 			<div className="bgwhite m-auto">
 
 				{/* /////// first part logo and icon*/}
-				<div className="d-flex justify-content-between p-2">
+				<div className="d-flex justify-content-between p-2 pb-2">
 					<img src={logo} className="logosingup"></img>
 					<div><i class="fas fa-times"></i></div>
 				</div>
