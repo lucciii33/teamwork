@@ -15,17 +15,17 @@ export const Footer = () => (
 			<Link to='/' className="footerlink"><p>Privacy Policy</p></Link>
 			<Link to='/' className="footerlink"><p>Terms</p></Link>
 		</div>
-		<div className="d-flex align-items-baseline">
+		
 			<div className="input-group md-form form-sm form-2 pl-0 me-5">
 				<div className="">
 					<p className="m-0 p-0 text-white textfoot">Stay in the know - join Elana!</p>
 
 					<div className="d-flex">
 
-						<input className="form-control my-0 py-1 red-border" type="text" placeholder="Enter your email" aria-label="Search" />
+						<input className="form-control my-0 py-1 red-border ms-2" type="text" placeholder="Enter your email" aria-label="Search" />
 						<div className="input-group-append">
 							<span className="" id="basic-text1">
-								<button className='buttonfooter'>
+								<button className='buttonfooter me-5'>
 									Join
 								</button>
 							</span>
@@ -33,18 +33,18 @@ export const Footer = () => (
 					</div>
 				</div>
 			</div>
-			<div className="mb-3">
-				<div className="m-0">
+			<div className="">
+				<div className="m-0 p-0">
 					<p className="text-white p-0 m-0">Conect with us</p>
 
-					<div className="d-flex icon">
-						<div className=""><i className="fab fa-facebook-square"></i></div>
-						<div className=""><i className="fab fa-linkedin"></i></div>
-						<div className=""><i className="fab fa-pinterest"></i></div>
-						<div className=""><i className="fab fa-instagram"></i></div>
+					<div className="icon d-flex">
+						<div className="me-3"><i className="fab fa-facebook-square"></i></div>
+						<div className="me-3"><i className="fab fa-linkedin"></i></div>
+						<div className="me-3"><i className="fab fa-pinterest"></i></div>
+						<div className="me-3"><i className="fab fa-instagram"></i></div>
 					</div>
 				</div>
 			</div>
-		</div>
+		
 	</footer>
 );

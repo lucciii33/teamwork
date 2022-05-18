@@ -23,11 +23,13 @@ export const SingUp = props => {
 	const [centredModal, setCentredModal] = useState(false);
 	const toggleShow = () => setCentredModal(!centredModal);
 	return (
+		
 		<div className="signupGradient pt-1 pb-1">
-			<div className="bgwhite m-auto">
+			{/* /////// singUpGradient control padding */}
+			<div className="bgwhite m-auto p-2">
 
 				{/* /////// first part logo and icon*/}
-				<div className="d-flex justify-content-between p-2 pb-2">
+				<div className="d-flex justify-content-between">
 					<img src={logo} className="logosingup"></img>
 					<div><i class="fas fa-times"></i></div>
 				</div>
@@ -41,7 +43,7 @@ export const SingUp = props => {
 
 				{/* /////// third part inputs*/}
 
-				<div className="d-flex justify-content-evenly m-2">
+				<div className="d-flex justify-content-evenly m-1">
 					<div>
 						<label className="labelsingup text-muted">First Name</label>
 						<MDBInput id='form1' type='text' />
@@ -81,15 +83,15 @@ export const SingUp = props => {
 					<label className="labelsingup text-muted">Licensing credentials</label>
 					<input type="text" class="form-control" aria-describedby="addon-wrapping"/>
 				</div>
-				<div className="inputdrop model">
+				<div className="inputdrop">
 					<label className="labelsingup text-muted">Area of Specialty</label>
 					<div class="input-group">
-						<select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-							<option className="text-muted">-select one-</option>
-							<option value="1">Occupational Therapist (OT)</option>
-							<option value="2">Pain Management Doctor</option>
-							<option value="3">Pain Management Psychologist</option>
-							<option value="3">Pelvic Health Physical Therapist</option>
+					<select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+							<option value="1" className="text-muted">-select one-</option>
+							<option value="2">Occupational Therapist (OT)</option>
+							<option value="3">Pain Management Doctor</option>
+							<option value="4">Pain Management Psychologist</option>
+							<option value="5">Pelvic Health Physical Therapist</option>
 						</select>
 					</div>
 				</div>

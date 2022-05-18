@@ -86,6 +86,7 @@
 .icon{
     color: white;
     font-size: 35px;
+    align-items: baseline;
 }
 
 
@@ -127,9 +128,9 @@
     font-family: 'Karla', sans-serif;
     font-size: 10px;
 }
-.model{
+/* .model{
     font-family: 'Karla', sans-serif;
-}
+} */
 .checkbox{
     font-family: 'Karla', sans-serif;
     font-size: 10px;
@@ -140,4 +141,5 @@ width: 300px;
 .inputdrop{
     width: 529px;
     margin-left: 90px;
+    font-family: 'Karla', sans-serif;
 }
