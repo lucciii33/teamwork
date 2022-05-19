@@ -25,8 +25,8 @@ export const PractitionerCategories = () => {
             <div className="purplecards">
                 {/* fisrt card here */}
                  <MDBContainer>
-                    <MDBRow className="m-0 p-0">
-                        <MDBCol size='md' className='ms-5'>
+                    <MDBRow className="">
+                        <MDBCol size='md' className=''>
                         <div className="left">
                             <div className="purpleboxes d-flex ">
                                 <img src={bodyimage}></img>
@@ -48,7 +48,7 @@ export const PractitionerCategories = () => {
                             </div>
                             </div>
                         </MDBCol>
-                        <MDBCol size='md' className='me-5'>
+                        <MDBCol size='md' className=''>
                         <div className="">
                             <div className="purpleboxes d-flex">
                                 <img src={bodyimage}></img>
@@ -59,7 +59,12 @@ export const PractitionerCategories = () => {
                             </div>
                         </div>
                         </MDBCol>
-                        <MDBCol size='md' className='ms-5'>
+                        </MDBRow>
+                </MDBContainer>
+
+                    <MDBContainer>
+                      <MDBRow>  
+                        <MDBCol size='md' className=''>
                             <div className="left">
                             <div className="purpleboxes d-flex">
                                 <img src={bodyimage}></img>
@@ -79,7 +84,8 @@ export const PractitionerCategories = () => {
                                 </div>
                             </div>
                         </MDBCol>
-                        <MDBCol size='md' className='me-5'>
+                    
+                        <MDBCol size='md' className=''>
                             <div className="purpleboxes d-flex">
                                 <img src={bodyimage}></img>
                                 <div className="d-block information">
@@ -88,8 +94,13 @@ export const PractitionerCategories = () => {
                                 </div>
                             </div>
                         </MDBCol>
-                        <MDBCol size='md' className='ms-5 left '>
-                            <div className="left">
+                        </MDBRow>
+                        </MDBContainer>
+                        
+                        <MDBContainer>
+                            <MDBRow>
+                        <MDBCol size='md' className=' '>
+                            <div className="">
                             <div className="purpleboxes d-flex">
                                 <img src={bodyimage}></img>
                                 <div className="d-block information">
@@ -108,7 +119,7 @@ export const PractitionerCategories = () => {
                                 </div>
                             </div>
                         </MDBCol>
-                        <MDBCol size='md' className='me-5'>
+                        <MDBCol size='md' className=''>
                             <div className="purpleboxes d-flex">
                                 <img src={bodyimage}></img>
                                 <div className="d-block information">
@@ -117,8 +128,9 @@ export const PractitionerCategories = () => {
                                 </div>
                             </div>
                         </MDBCol>
-                    </MDBRow>
-                </MDBContainer>
+                        </MDBRow>
+                        </MDBContainer>
+                    
             </div>
         </div>
 
