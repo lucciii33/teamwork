@@ -24,21 +24,21 @@ export const PractitionerCategories = () => {
 
             <div className="purplecards">
                 {/* fisrt card here */}
-
-
-
-                <MDBContainer>
-                    <MDBRow>
-                        <MDBCol size='md' className='ms-5 left '>
-                            <div className="purpleboxes d-flex">
+                 <MDBContainer>
+                    <MDBRow className="m-0 p-0">
+                        <MDBCol size='md' className='ms-5'>
+                        <div className="left">
+                            <div className="purpleboxes d-flex ">
                                 <img src={bodyimage}></img>
                                 <div className="d-block information">
                                     <h6 className="titlebox">Bladder & Bowel Incontinence</h6>
                                     <p className="paragraphbox">Accidental leakage of <br /> bodily fluids and waste</p>
                                 </div>
                             </div>
+                        </div>
                         </MDBCol>
-                        <MDBCol size='md' className='col-example'>
+                        <MDBCol size='md' className=''>
+                            <div className="">
                             <div className="purpleboxes d-flex">
                                 <img src={bodyimage}></img>
                                 <div className="d-block information">
@@ -46,8 +46,10 @@ export const PractitionerCategories = () => {
                                     <p className="paragraphbox">Pain or pressure in the <br/>lower abdomen area and bladder</p>
                                 </div>
                             </div>
+                            </div>
                         </MDBCol>
                         <MDBCol size='md' className='me-5'>
+                        <div className="">
                             <div className="purpleboxes d-flex">
                                 <img src={bodyimage}></img>
                                 <div className="d-block information">
@@ -55,14 +57,17 @@ export const PractitionerCategories = () => {
                                     <p className="paragraphbox">Straining pain during <br /> bowel movements </p>
                                 </div>
                             </div>
+                        </div>
                         </MDBCol>
-                        <MDBCol size='md' className='ms-5 left '>
+                        <MDBCol size='md' className='ms-5'>
+                            <div className="left">
                             <div className="purpleboxes d-flex">
                                 <img src={bodyimage}></img>
                                 <div className="d-block information">
                                     <h6 className="titlebox">Endometriosis</h6>
                                     <p className="paragraphbox">Pain that occurs especially<br /> during menstrual periods</p>
                                 </div>
+                            </div>
                             </div>
                         </MDBCol>
                         <MDBCol size='md' className='col-example'>
@@ -84,12 +89,14 @@ export const PractitionerCategories = () => {
                             </div>
                         </MDBCol>
                         <MDBCol size='md' className='ms-5 left '>
+                            <div className="left">
                             <div className="purpleboxes d-flex">
                                 <img src={bodyimage}></img>
                                 <div className="d-block information">
                                     <h6 className="titlebox">Pelvic Organ Prolapse</h6>
                                     <p className="paragraphbox">Drooping of pelvic organs <br/> such as  the bladder, uterus, vagina, etc. </p>
                                 </div>
+                            </div>
                             </div>
                         </MDBCol>
                         <MDBCol size='md' className='col-example'>
@@ -107,24 +114,6 @@ export const PractitionerCategories = () => {
                                 <div className="d-block information">
                                     <h6 className="titlebox">Proactive Pelvic <br/> Care</h6>
                                     <p className="paragraphbox">Methods to actively take <br/> care of your pelvic health </p>
-                                </div>
-                            </div>
-                        </MDBCol>
-                        <MDBCol size='md' className='ms-5 left '>
-                            <div className="purpleboxes d-flex">
-                                <img src={bodyimage}></img>
-                                <div className="d-block information">
-                                    <h6 className="titlebox">Separated Abs</h6>
-                                    <p className="paragraphbox">Condition when abdominal <br/> muscles separate during pregnancy bodily fluids and waste</p>
-                                </div>
-                            </div>
-                        </MDBCol>
-                        <MDBCol size='md' className='me-5'>
-                            <div className="purpleboxes d-flex">
-                                <img src={bodyimage}></img>
-                                <div className="d-block information">
-                                    <h6 className="titlebox">Vaginoplasty Prep <br/> & Recovery</h6>
-                                    <p className="paragraphbox">Prepping and recovering<br/> from the repair of a vagina</p>
                                 </div>
                             </div>
                         </MDBCol>

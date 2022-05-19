@@ -180,5 +180,8 @@ width: 300px;
     font-size: 15px;
 }
 .left {
-    margin-left: 105px;
+    margin-left: 45px;
+}
+.right{
+    margin-left: 5px;
 }
