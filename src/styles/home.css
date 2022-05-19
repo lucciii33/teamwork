@@ -143,3 +143,42 @@ width: 300px;
     margin-left: 90px;
     font-family: 'Karla', sans-serif;
 }
+
+/* /////Browser PractitionerCategories */
+
+.purpleboxes{
+    background-color: #EAE8FB  ;
+    width: 270px;
+    height: 120px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 14px;
+}
+.titlebox{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Abhaya Libre', serif;
+    margin-left: 15px;
+}
+.paragraphbox{
+    font-size: 10px;
+    font-family: 'Karla', sans-serif;
+    margin-left: 15px;
+}
+.purplecards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.iconback{
+    color: #7F6FEA;
+}
+.titlepractitioner{
+    font-family: 'Abhaya Libre', serif;
+}
+.textpractitioner{
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+}
+.left {
+    margin-left: 105px;
+}

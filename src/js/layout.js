@@ -6,6 +6,7 @@ import { Home } from "./views/home";
 import { PatienLandingPage } from "./views/patienlandingpage";
 import { SingUp } from "./views/singup";
 import injectContext from "./store/appContext";
+import { PractitionerCategories } from "./views/practitionerCategories";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -27,6 +28,9 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/patienlandingpage">
 							<PatienLandingPage />
+						</Route>
+						<Route exact path="/practitionerCategories">
+							<PractitionerCategories />
 						</Route>
 						<Route exact path="/singup">
 							<SingUp />
