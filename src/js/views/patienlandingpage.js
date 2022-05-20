@@ -26,8 +26,8 @@ export const PatienLandingPage = () => {
 					<img src={image} className="w-100"></img>
 				</div>
 				<div className="m-auto col-sm-12 col-md-6">
-					<h3 className="text-center title1 col-sm">Health providers in Elana include:</h3>
-					<div className="me-5">
+					<h3 className="text-center title1">Health providers in Elana include:</h3>
+					<div className="ms-5">
 
 						<ul type="none" className="list col-sm">
 							<li className="">Yoga Instructors</li>
@@ -38,12 +38,12 @@ export const PatienLandingPage = () => {
 							<li>Gynecologist</li>
 							<li>and more!</li>
 						</ul>
-					</div>
 					<div>
 
-						<button className='buttonmainpage'>
+						<button className='buttonmainpage col-sm ms-4'>
 							BROWSE PRACTITIONERS
 						</button>
+					</div>
 					</div>
 				</div>
 			</div>
