@@ -13,23 +13,23 @@ export const PatienLandingPage = () => {
 
 	return (
 		<div className="">
-			<div className="bgpurple">
+			<div className="bgpurple row">
 				<div className="intro">
 
-					<h1 className="p-4">We’re so glad you’re here. </h1>
-					<h4 className="p-0">Elana is changing a generation of women’s health, putting you in control <br />
+					<h1 className="p-4 col-sm-12">We’re so glad you’re here. </h1>
+					<h4 className="p-0 col-sm-12">Elana is changing a generation of women’s health, putting you in control <br />
 						of managing your pelvic health, how, and when, it suits you.</h4>
 				</div>
 			</div>
-			<div className="d-flex">
-				<div>
-					<img src={image}></img>
+			<div className="d-flex row">
+				<div className="col-sm-12 col-md-6">
+					<img src={image} className="w-100"></img>
 				</div>
-				<div className="m-auto">
-					<h3 className="text-center title1">Health providers in Elana include:</h3>
+				<div className="m-auto col-sm-12 col-md-6">
+					<h3 className="text-center title1 col-sm">Health providers in Elana include:</h3>
 					<div className="me-5">
 
-						<ul type="none" className="list">
+						<ul type="none" className="list col-sm">
 							<li className="">Yoga Instructors</li>
 							<li>Pilates Instructors</li>
 							<li>Physical Therapy</li>

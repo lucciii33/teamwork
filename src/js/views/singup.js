@@ -81,7 +81,7 @@ export const SingUp = props => {
 				</div>
 				<div className=" inputdrop">
 					<label className="labelsingup text-muted">Licensing credentials</label>
-					<input type="text" class="form-control" aria-describedby="addon-wrapping"/>
+					<input type="text" className="form-control" aria-describedby="addon-wrapping"/>
 				</div>
 				<div className="inputdrop">
 					<label className="labelsingup text-muted">Area of Specialty</label>

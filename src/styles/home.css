@@ -99,7 +99,7 @@
 }
 .bgwhite{
     background-color: white;
-    width: 700px;
+    max-width: 700px;
     border-radius: 14px;
     height: auto;
     
@@ -139,8 +139,8 @@
 width: 300px;
 }
 .inputdrop{
-    width: 529px;
-    margin-left: 90px;
+    width: 518px;
+    margin-left: 85px;
     font-family: 'Karla', sans-serif;
 }
 
