@@ -24,9 +24,9 @@ export const SingUp = props => {
 	const toggleShow = () => setCentredModal(!centredModal);
 	return (
 		
-		<div className="signupGradient pt-1 pb-1">
+		<div className="signupGradient">
 			{/* /////// singUpGradient control padding */}
-			<div className="bgwhite m-auto p-2">
+			<div className="bgwhite p-2">
 
 				{/* /////// first part logo and icon*/}
 				<div className="d-flex justify-content-between">
@@ -105,8 +105,8 @@ export const SingUp = props => {
 
 				{/* /////// fifth part button and modal*/}
 
-				<div className="text-center model">
-					<button onClick={toggleShow} className="buttonmainpage m-2 mb-5">CONTINUE</button>
+				<div className="text-center">
+					<button onClick={toggleShow} className="buttonmainpage mt-2">CONTINUE</button>
 
 					<MDBModal tabIndex='-1' show={centredModal} setShow={setCentredModal}>
 						<MDBModalDialog centered>
