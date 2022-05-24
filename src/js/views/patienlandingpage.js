@@ -27,7 +27,7 @@ export const PatienLandingPage = () => {
 				</div>
 				<div className="m-auto col-sm-12 col-md-6">
 					<h3 className="text-center title1">Health providers in Elana include:</h3>
-					<div className="ms-5">
+					<div className="ms-4">
 
 						<ul type="none" className="list col-sm">
 							<li className="">Yoga Instructors</li>
